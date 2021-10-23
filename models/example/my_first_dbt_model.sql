@@ -6,7 +6,7 @@
 
     Try changing "table" to "view" below
 */
-use warehouse compute_wh;
+
 {{ config(materialized='table') }}
 
 with source_data as (
